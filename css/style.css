@@ -1,0 +1,296 @@
+/* PALETA DE COLORES */
+:root{
+    --verde: #33cc33;
+    --amarillo: #ffff00;
+    --nav: #ad1700;
+    --gris: #cccccc;
+    --grisClaro: #f7f7f7;
+    --negro: #000000;
+    --blanco: #fff;
+}
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--grisClaro);
+}
+
+/* uso para todos los html */
+
+/* style for navbar */
+header{
+    width: 100%;
+    height: 130px;
+    margin: 0px 10px 0px 0px;
+    background-color: var(--blanco);
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gris);
+}
+
+header a img{
+    width: 150px;
+    height: 100px;
+    margin-left: 50px;
+}
+header a img:hover{
+    opacity: 0.6;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a{
+    color: var(--negro);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hoverNav:hover{
+    text-decoration: underline 2px solid var(--nav);
+    opacity: 0.5;
+    font-size: large;
+}
+
+
+.colaboraConNosotros{
+    color: var(--nav);
+    font-size:medium;
+}
+.contacto{
+    color: var(--nav);
+    font-size:medium;
+}
+.noticias{
+    color: var(--nav);
+    font-size:medium;
+}
+.queHacemos{
+    color: var(--nav);
+    font-size:medium;
+}
+.quienesSomos{
+    color: var(--nav);
+    font-size:medium;
+}
+.serviciosParaTi{
+    color: var(--nav);
+    font-size:medium;
+}
+/* End style for navbar */
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(/img/bannerCanva.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* style for navbar */
+header{
+    width: 100%;
+    height: 130px;
+    margin: 0px 10px 0px 0px;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gris);
+}
+
+header a img{
+    width: 150px;
+    height: 100px;
+    margin-left: 50px;
+}
+header a img:hover{
+    opacity: 0.6;
+}
+
+ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a{
+    color: var(--negro);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline 2px solid var(--nav);
+    opacity: 0.5;
+    font-size: large;
+}
+
+/* Page: Index */
+.containerContent{
+    width: 80%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+
+.containerContentCol1{
+    width: 50%;
+    height: auto;
+}
+
+.cardPerson{
+    width: 90%;
+    height: 200px;
+    margin: 30px;
+    border: 1px solid #000000 ;
+    display: flex;
+    justify-content:start;
+    flex-direction: row;
+}
+.cardPerson img{
+    width: 100%;
+    height: 100%;
+}
+.cardPerson .contentCard{
+    height: 200px;
+}
+.NamePerson{
+    height: 25%;
+    display: flex;
+    text-align: center;
+}
+.Nacionalidad{
+    height: 25%;
+    display: flex;
+    text-align: center;
+}
+.textPerson{
+    height: 50%;
+}
+
+.containerContentCol2{
+    width: 50%;
+    height: auto;
+}
+
+.imageCanva{
+    width: 100%;
+    height: 100px;
+    background-image: url(/img/bannerCanva.png);
+    background-size: cover;
+    background-position: center;
+}
+/* Page: QuienesSomos */
+
+.containerContentText{
+    background-color: white; 
+    width: 80%;
+    height: auto;
+}
+
+.containerContentText > h1, h4{
+    text-align: center;
+    margin: 30px 0px;
+}
+.containerContentText > h2,h4,p,ul,h5,iframe {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.containerContentText > h5, h4{
+    margin-top: 50px;
+    border-bottom: 2px solid var(--nav);
+}
+
+.containerContent h5, h4{
+    border-bottom: 2px solid var(--nav);
+}
+
+.containerContentText > ul{
+    margin-bottom: 40px;
+}
+.containerContentText img{
+    width: 400px;
+    height: 380px;
+    text-align: center;
+}
+
+/* FOOTER */
+
+
+
+footer{
+    width: 100%;
+    height: 180px;
+    margin-top: 25px;
+    background-color: var(--blanco);
+    display: flex;
+    border-top: 1px solid var(--gris) ;
+}
+
+.footerCol1{
+    width: 15%;
+    text-align: center;
+}
+
+.footerCol1 img{
+    width: 130px;
+    height: 110px;
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+.footerCol2{
+    width: 45%;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.footerCol3{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+
+.footerCol4{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 110px;
+}
+
+/* page hazte socio */
+.firmando{
+    width: 100%;
+    height: 250px;
+    background-image: url(/img/FirmandoBanner.png);
+    background-position: center;
+}
+.marcha{
+    width: 100%;
+    height: 200px;
+    background-image: url(/img/marcha.png);
+    background-size: contain;
+}
