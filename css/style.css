@@ -98,7 +98,7 @@ ul li a{
 .banner{
     width: 100%;
     height: 400px;
-    background-image: url(/img/bannerCanva.png);
+    background-image: url(./img/bannerCanva.png);
     background-size: cover;
     background-position: center;
 }
@@ -285,12 +285,12 @@ footer{
 .firmando{
     width: 100%;
     height: 250px;
-    background-image: url(/img/FirmandoBanner.png);
+    background-image: url(./img/FirmandoBanner.png);
     background-position: center;
 }
 .marcha{
     width: 100%;
     height: 200px;
-    background-image: url(/img/marcha.png);
+    background-image: url(./img/marcha.png);
     background-size: contain;
 }
